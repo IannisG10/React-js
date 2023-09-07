@@ -1,0 +1,82 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.chronometre{
+    background-color: white;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+.time{
+    padding: 2px;
+    font-size: 20px;
+    border: solid 2px black;
+     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+.controls{
+    width:100% ;
+     display: flex;
+     justify-content: space-around;
+     margin: 10px;
+}
+button{
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-family: serif;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 15px;
+    width: 18%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+button:nth-child(2){
+    background-color: rgba(212, 3, 3, 0.842);
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-family: serif;
+    padding: 2px;
+    border-radius: 15px;
+    width: 18%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+button:last-child{
+    background-color: rgb(94, 93, 93);
+    color:white;
+    border: none;
+    font-size: 13px;
+    font-family: serif;
+    padding: 2px;
+    border-radius: 15px;
+    width: 18%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+p{
+  
+    margin: 3px;
+}
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 7px;
+}
+button:hover{
+    transform: scale(0.9);
+}

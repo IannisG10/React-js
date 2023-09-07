@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <h1>Ceci est une Calculatrice </h1>
+    
+    <div class="Calculator">
+        <div class="calculator-output" id="output">  </div>
+        <div class="elements">
+            <button type="button" class="calculator-touch" value="1">1</button>
+            <button type="button" class="calculator-touch" value="2">2</button>
+            <button type="button" class="calculator-touch" value="3">3</button>
+            <!-- <button class="calculator-touch">4</button> -->
+            <button type="button" class="calculator-touch delete" data-action="clear">AC</button>
+            <button type="button" class="calculator-touch" value="4">4</button>
+            <button type="button" class="calculator-touch" value="5">5</button>
+            <button type="button" class="calculator-touch" value="6">6</button>
+            <button type="button" class="calculator-touch" value="7">7</button>
+            <button type="button" class="calculator-touch" value="8">8</button>
+            <button type="button" id="calculator-enter" data-action="calculate">=</button>
+            <button type="button" class="calculator-touch" value="9">9</button>
+            <button type="button" class="calculator-touch calculator-operator" data-action="add" value="+">+</button>
+            <button type="button" class="calculator-touch calculator-operator" data-action="substract" value="-" >-</button>
+            <button type="button" class="calculator-touch" value="0">0</button>
+            <button type="button" class="calculator-touch calculator-operator" data-action="multiply" value="*">*</button>
+            <button type="button" class="calculator-touch calculator-operator" data-action="divide" value="/">/</button>
+            <button type="button" class="calculator-touch" data-action="decimal">.</button>
+        </div>
+    </div>
+    <script src="calculatrice.js"></script>
+</body>
+</html>
